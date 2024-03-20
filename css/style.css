@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria: #F3F5FC;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #0A3871;
+    --cor-hover: #0a3871b9;
+    
+    --cor-texto-primaria: #0A3871;
+    --cor-texto-secundaria: #343A40;
+    --cor-texto-terciaria: #495057;
+    
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 2% 10%;
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-texto-primaria);
+
+    font-size: 16px; /*24*/
+    font-weight: 700;
+}
+
+.cabecalho__menu__link:hover {
+    text-decoration: underline;
+    color: var(--cor-hover);
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 0px 84px;
+    gap: 80px;
+}
+
+.apresentacao__conteudo {               
+    width: 60%; /*50%*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__logo {
+    width: 31.09px;
+    height: 48px;
+}
+
+.apresentacao__conteudo__principal {
+    background-color: red;
+    padding: 40px 0px 200px 200px;
+}
+
+
+
+
+
+.apresentacao__conteudo__titulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+
+
+.rodape {
+    padding: 2% 0% 2% 10%;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    text-align: center;
+}

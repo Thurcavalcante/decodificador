@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="#" class="cabecalho__menu__link">Home</a>
+            <a href="#" class="cabecalho__menu__link">Sobre</a>
+            <a href="#" class="cabecalho__menu__link">Contato</a>
+        </nav>
+    </header>
+    
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <a href="#" class="apresentacao__conteudo__logo">
+                <img src="./assets/img/Vector.svg" alt="Logo Alura">
+            </a>
+            <div class="apresentacao__conteudo__principal">
+                <h1 class="apresentacao__conteudo__titulo">
+                    Digite seu texto
+                </h1>
+                <textarea class="apresentacao__conteudo__escrita" name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <p class="apresentacao__conteudo__alerta">
+                    <i class="bi bi-exclamation-circle-fill"></i> 
+                    Apenas letras minúsculas e sem acento.
+                </p>
+                <a href="#" class="apresentacao__links__criptografar">Criptografar</a>
+                <a href="#" class="apresentacao__links__descriptografar">Descriptografar</a>
+            </div>
+        </section>
+
+        <section class="apresentacao__conteudo__resultado">
+            <img src="./assets/img/High quality products 1 1.svg" alt="personagem com lupa na mão">
+            <h2 class="apresentacao__conteudo__resultado__encontrado">Nenhuma mensagem encontrada</h2>
+            <p class="apresentacao__conteudo__resultado__encontrado__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Arthur Cavalcante</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+            
+                        
+<!-- 
+    <form action="/action_page.php">
+        <p><label for="w3review">Digite seu texto textarea</label></p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Digite seu texto"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form> 
+-->
